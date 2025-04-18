@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-image: url(./assets/nicolas.avif);
+  background-position: center;
+  background-size: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.primeira {
+  border: #888 2px solid;
+  border-radius: 8px;
+  background: #13049ac5 ;
+  margin: 4px 4px;
+  padding: 8px;
+  height: 50%;
+  >h1 {
+    font-size: 19px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: white 2px solid;
+    width: 60%;
+  }
+
+  >h2 {
+    font-size: 15px;
+    
+     >span {
+      padding-top: 40px;
+      color: chartreuse;
+     }
+  }
+  >h3 {
+    margin-top: -8px;
+    font-size: 8px;
+    color: darkgrey;
+
+    margin-bottom: 40px;
+  }
+
+  >h4 {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  >.botoes {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+     >button {
+      font-size: 16px;
+      padding: 10px;
+     }
+  }
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
